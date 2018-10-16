@@ -8,7 +8,7 @@ description = "Dynamsoft's Barcode Reader SDK enables you to efficiently embed b
 documentation = "https://www.dynamsoft.com/Products/Barcode-Reader-Resources.aspx#documentation"
 homepage = "https://www.dynamsoft.com/Products/Dynamic-Barcode-Reader.aspx"
 repository = "https://github.com/dynamsoft-dbr/rust"
-keywords = ["barcode", "QR code", "PDF417", "Aztec Code", "DataMatrix"]
+keywords = ["barcode", "QR", "PDF417", "Aztec", "DataMatrix"]
 
 license-file = "LICENSE.txt"
 
