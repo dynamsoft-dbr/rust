@@ -1,0 +1,30 @@
+[package]
+name = "dbr"
+version = "0.1.0"
+authors = ["Xiao Ling <xiao@dynamsoft.com>"]
+build = "build.rs"
+
+description = "Dynamsoft's Barcode Reader SDK enables you to efficiently embed barcode reading functionality in your web, desktop or mobile application using just a few lines of code."
+documentation = "https://www.dynamsoft.com/Products/Barcode-Reader-Resources.aspx#documentation"
+homepage = "https://www.dynamsoft.com/Products/Dynamic-Barcode-Reader.aspx"
+repository = "https://github.com/dynamsoft-dbr/rust"
+keywords = ["barcode", "QR code", "PDF417", "Aztec Code", "DataMatrix"]
+
+license-file = "LICENSE.txt"
+
+include = [
+    "**/*.lib",
+    "**/*.dll",
+    "**/*.rs",
+    "**/*.c",
+    "**/*.h",
+    "Cargo.toml",
+]
+
+[lib]
+name = "dbr"
+path = "src/lib.rs"
+
+[build-dependencies]
+cc = "1.0"
+bindgen = "0.42.1"
