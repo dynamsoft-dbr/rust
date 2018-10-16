@@ -71,6 +71,12 @@ fn main() {
 
 5. Generate `reader.rs` with [bindgen](https://github.com/rust-lang-nursery/rust-bindgen).
 
+    ```bash
+    cargo install bindgen
+    cd src
+    bindgen reader.h -o reader.rs
+    ```
+
 6. Add the local package to your Rust project:
 
     ```rust
