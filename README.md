@@ -1,7 +1,7 @@
 # Dynamsoft Barcode Reader
 
 
-![crates.io version](https://img.shields.io/badge/crates.io-v0.1.2-orange.svg?longCache=true)
+![crates.io version](https://img.shields.io/badge/crates.io-v0.1.3-orange.svg?longCache=true)
 
 FFI bindings to [Dynamsoft Barcode Reader SDK](https://www.dynamsoft.com/Products/Dynamic-Barcode-Reader.aspx). 
 
