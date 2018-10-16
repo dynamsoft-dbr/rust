@@ -1,6 +1,6 @@
 [package]
 name = "dbr"
-version = "0.1.0"
+version = "0.1.1"
 authors = ["Xiao Ling <xiao@dynamsoft.com>"]
 build = "build.rs"
 readme = "README.md"
