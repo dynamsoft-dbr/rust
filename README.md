@@ -1,7 +1,7 @@
 # Dynamsoft Barcode Reader
 
 
-![crates.io version](https://img.shields.io/badge/crates.io-v0.1.1-orange.svg?longCache=true)
+![crates.io version](https://img.shields.io/badge/crates.io-v0.1.2-orange.svg?longCache=true)
 
 FFI bindings to [Dynamsoft Barcode Reader SDK](https://www.dynamsoft.com/Products/Dynamic-Barcode-Reader.aspx). 
 
@@ -60,13 +60,17 @@ fn main() {
 ## How to Customize the Package
 
 1. Install [Dynamsoft Barcode Reader](https://www.dynamsoft.com/Downloads/Dynamic-Barcode-Reader-Download.aspx).
-2. Copy `Dynamsoft\Barcode Reader <version number>\Components\C_C++\Redist\x64\DynamsoftBarcodeReaderx64.dll` to `platforms\win\DynamsoftBarcodeReaderx64.dll`. 
+
+2. Get the [source code](https://github.com/dynamsoft-dbr/rust);
+
+3. Copy `Dynamsoft\Barcode Reader <version number>\Components\C_C++\Redist\x64\DynamsoftBarcodeReaderx64.dll` to `platforms\win\DynamsoftBarcodeReaderx64.dll`. 
     
     Copy `Dynamsoft\Barcode Reader <version number>\Components\C_C++\Lib\DBRx64.lib` to `platforms\win\DBRx64.lib`
 
-3. Get the [source code](https://github.com/dynamsoft-dbr/rust);
 4. Add function definitions to `reader.h` and add function implementations to `reader.c`.
+
 5. Generate `reader.rs` with [bindgen](https://github.com/rust-lang-nursery/rust-bindgen).
+
 6. Add the local package to your Rust project:
 
     ```rust
